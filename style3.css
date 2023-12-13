@@ -1,0 +1,37 @@
+.display img{
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.display{
+  background-image: url(./tuki/wa/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin: -8px;
+}
+body{
+  background-color: rgb(134, 123, 91);
+}
+.slogan .setumei img{
+  width: 500px;
+  height: auto;
+}
+.dekai{
+  font-size: 50px;
+}
+.slogan{
+  color: white;
+  background-color: rgb(82, 75, 50);
+  margin: 30px 80px 30px 80px; /* 上 右 下 左 */
+}
+.setumei{
+  display: flex;
+}
+.setumei a{
+  color: white;
+}
