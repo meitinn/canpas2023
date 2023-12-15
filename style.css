@@ -13,7 +13,7 @@
 }
 
 .bg {
-  background-color: #8e835f;
+  background: radial-gradient(ellipse at bottom, #aea27c 0%, #4c442c 100%);
   margin: -30px -8px;
 }
 
@@ -50,6 +50,46 @@
   border-left: 5px solid white;
   padding: 20px;
 }
-.slogan .content .text a{
+
+.slogan .content .text a {
   color: white;
+}
+
+.program {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.program .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.program .img img {
+  width: 400px;
+  height: auto;
+}
+
+.program .text .jikan {
+  font-size: 50px;
+}
+
+.program .text .title {
+  font-size: 70px;
+}
+
+.timetable .title {
+  font-size: 80px;
+}
+
+.timetable {
+  color: white;
+  margin: 30px 250px;
+}
+
+.timetable .body {
+  border-left: 3px solid white;
+  padding-left: 30px;
 }
